@@ -155,10 +155,10 @@ class Fighter extends Sprite {
       return
 
     switch (sprite) {
-      case 'idle':
-        if (this.image !== this.sprites.idle.image) {
-          this.image = this.sprites.idle.image
-          this.framesMax = this.sprites.idle.framesMax
+      case 'Idle':
+        if (this.image !== this.sprites.Idle.image) {
+          this.image = this.sprites.Idle.image
+          this.framesMax = this.sprites.Idle.framesMax
           this.framesCurrent = 0
         }
         break
